@@ -15,9 +15,9 @@ import gc
 
 def main():
     # 路径配置
-    apk_dir = r"G:\无用\google_resstringencryption_apk"
+    apk_dir = os.path.join(os.getcwd(), "apk")
     gml_dir = os.path.join(os.getcwd(), "gml")
-    txt_dir = os.path.join(os.getcwd(), "txt", "benign")
+    txt_dir = os.path.join(os.getcwd(), "txt")
     num = 0  # 成功处理计数器
 
     # 创建输出目录
